@@ -5,7 +5,7 @@ const { demandOption } = require('yargs');
 
 yargs.version('1.1.0')
 
-//create add command
+//create add commands
 yargs.command({
     command: 'add',
     describe: 'add a new note',
